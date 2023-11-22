@@ -1,0 +1,31 @@
+
+/* HEADER */
+
+.nav-text {
+  padding: 8px;
+  font-size: 1.2rem;
+  color: black;
+}
+.nav-text:hover {
+  color: #23e9a4;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+/* .nav-text {
+  padding: 0px 20px;
+} */
+.nav-item {
+  margin-left: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .nav-text {
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .nav-item {
+    margin-bottom: 6px;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,40 @@
+.common-head {
+    text-align: center;
+    margin: 25px;
+  }
+  .about-text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .about-card-content {
+    margin: 0px 10px 30px 10px;
+    padding: 30px 32px 35px 32px;
+    background-color: #fff1e7;
+    border-radius: 18px;
+  }
+  .about-card-body {
+    text-align: center;
+  }
+  .about-card-head {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .about-card-text {
+    font-weight: lighter;
+  }
+  @media only screen and (max-width: 600px) {
+    .about-text {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    .about-card-head {
+      font-size: 18px;
+    }
+    .about-card-text {
+      font-size: 13px;
+    }
+    .about-card-content {
+      margin: 0px 8px 30px 8px;
+      padding: 15px 16px 17px 15px;
+    }
+  }
